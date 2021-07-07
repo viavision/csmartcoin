@@ -1,6 +1,9 @@
 {
   "name": "pancake-swap-fork",
   "description": "",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
