@@ -1,0 +1,38 @@
+1. Download node js - https://nodejs.org/en/download/
+
+2. Download yarn with - npm install -g yarn - https://yarnpkg.com/getting-started/install
+
+3. Download git bash - https://git-scm.com/downloads
+
+4. Download panecake swap exchange from - https://github.com/Alex-Nabu/pancake-swap-interface-v1-YT-
+
+5. Download panecake UI interface toolkit from - https://github.com/pancakeswap/pancake-toolkit/tree/9adf501659be2686f96f6e9f68e6c40857f8d3e1
+
+8. Both files UI and SWAP go to /root/ type: "yarn install" to fetch every installation
+
+6. Go to pancake swap exchange /root/ open NPM/node.js type "npm run build" to compile all files
+
+7. Go to pancake swap exchange /root/ open NPM/node.js type: "npm run start" to view localhost live site
+
+9. Inside the UI interface toolkit go to this directory pancake-toolkit/packages/pancake-uikit/, then open bash type: "npm run start" to view localhost live site
+
+10. Edit logo here - pancake-toolkit/packages/pancake-uikit/src/widgets/Menu/icons
+
+11. Add "<Svg viewBox="0 0 160 26" {...props}><image width-"205" height-"26" href-{isDark ? 'images/pixel/csmart.png' : 'images/pixel/csmart.png'}/></Svg>"
+
+12. Go to pancake swap exchange /root/ -> /exchange/public/images create directory with image -> /pixel/csmart.png
+
+13. Go here pancake-toolkit/packages/pancake-uikit run git bash with: "yarn run build" to compile all files
+
+14. Copy this file pancake-toolkit/packages/pancake-uikit/dist copy over / replce -> swap/exchange/node_modules/@pancakeswap-libs/ukit/dist
+
+
+
+<img src='images/logo/icon.svg'>
+
+
+
+
+
+
+
